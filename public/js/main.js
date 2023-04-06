@@ -63,7 +63,7 @@ const outputUsers = (users) => {
   userList.innerHTML = "";
   users.forEach((user) => {
     const li = document.createElement("li");
-    li.innerText = user.username;
+    li.innerHTML = `<div><i class="fa fa-circle online-status"></i> &nbsp; ${user.username}</div>`;
     userList.appendChild(li);
   });
 };

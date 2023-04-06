@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
+	--dark-color-a: #37306B;
+	--dark-color-b: #66347F;
 	--light-color: #e6e9ff;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
+	--online-color:#16FF00;
 }
 
 * {
@@ -176,6 +177,10 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+}
+
+.online-status{
+	color:var(--online-color);
 }
 
 @media (max-width: 700px) {

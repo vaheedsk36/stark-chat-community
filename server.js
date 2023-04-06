@@ -15,7 +15,7 @@ const PORT = 2500 || process.env.PORT;
 app.use(express.static(path.join(__dirname,'public')));
 
 
-const botName = 'Chat Cord Bot';
+const botName = 'Stark Bot';
 // Run when client connects
 io.on('connection',socket=>{
 
