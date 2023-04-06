@@ -24,7 +24,7 @@ io.on('connection',socket=>{
         socket.join(user.room);
 
          // emit to the user connect
-    socket.emit('message', formatMessage(botName, 'Welcome to ChatCord!'));
+    socket.emit('message', formatMessage(botName, 'Stark Chat Community!'));
     
     // emit to everyone when a user connects
     socket.broadcast.to(user.room).emit('message',formatMessage(user.username, `A ${user.username} has joined the chat`));
